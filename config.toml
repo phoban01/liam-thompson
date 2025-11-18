@@ -1,0 +1,28 @@
+# Zola configuration file for liam-thompson personal website
+
+base_url = "https://leemthompo.github.io/liam-thompson"
+title = "Liam Thompson"
+description = "A personal website"
+
+# The site theme to use.
+theme = ""
+
+# The default language; used in feeds
+default_language = "en"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# Whether to generate a feed file for the site
+generate_feed = false
+
+[markdown]
+# Whether to do syntax highlighting
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+
+[extra]
+# Put all your custom variables here
